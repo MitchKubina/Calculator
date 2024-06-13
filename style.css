@@ -8,7 +8,7 @@ body {
 
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0, 15);
+    background-color: rgb(100, 100, 100);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -21,6 +21,7 @@ body {
     color: black;
     text-align: left;
     border: none;
+    background-color: rgb(120, 120, 120);
 }
 
 #keys {
@@ -48,4 +49,16 @@ button:hover {
 
 button:active {
     background-color: rgb(2, 2, 2);
+}
+
+.imp {
+    background-color: rgb(64, 128, 255)
+}
+
+.imp:hover {
+    background-color: rgb(32, 64, 128);
+}
+
+.imp:active {
+    background-color: rgb(16, 32, 64);
 }
